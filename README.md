@@ -30,3 +30,5 @@ Then check the `UsageLog` table (`npx prisma studio`).
 - No streaming, no rate limiting, budget check is pre-request (can overshoot slightly)
 - No dashboard, alerts, or key management UI yet
 - OpenAI provider not added yet; Anthropic is supported via PROVIDER=anthropic but untested
+![alt text](image.png)
+![alt text](image-1.png)

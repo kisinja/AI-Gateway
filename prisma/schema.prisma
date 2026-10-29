@@ -76,3 +76,12 @@ model AuditLog {
 
   @@index([createdAt])
 }
+
+model FailedAuth {
+  id String @id @default(uuid())
+  reason String
+  ip String?
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
